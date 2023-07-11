@@ -17,8 +17,8 @@ class EntityManagerCreator
             'driver' => 'pdo_mysql',
             'host' => 'localhost',
             'dbname' => 'curso_mvc',
-            'user' => 'mateus',
-            'password' => '@Mp92699004'
+            'user' => 'user',
+            'password' => 'password'
         );
 
         $config = Setup::createAnnotationMetadataConfiguration(
